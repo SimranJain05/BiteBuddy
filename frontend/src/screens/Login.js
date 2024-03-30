@@ -12,7 +12,7 @@ export default function Login() {
   const handleFormSubmit = async (e) => {
     e.preventDefault(); // Synthetic event  to prevent form data from being sent if the user submits the form via pressing Enter in a field
 
-    const response = await fetch("http://localhost:5000/api/loginuser", {
+    const response = await fetch("https://bite-buddy-api.vercel.app/api/loginuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

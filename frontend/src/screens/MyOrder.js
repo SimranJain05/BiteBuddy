@@ -6,7 +6,7 @@ export default function MyOrder() {
 
   const fetchMyOrder = async () => {
     console.log(localStorage.getItem("userEmail"));
-    await fetch("http://localhost:5000/api/myOrderData", {
+    await fetch("https://bite-buddy-api.vercel.app/api/myOrderData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
