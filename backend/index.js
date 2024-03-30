@@ -5,7 +5,7 @@ require('dotenv').config()
 const cors = require('cors');
 app.use(cors(
     { 
-        origin: [""],
+        origin: ["https://bite-buddy-frontend.vercel.app"],
         methods: ['GET', 'POST'],
         credentials : true
     }
