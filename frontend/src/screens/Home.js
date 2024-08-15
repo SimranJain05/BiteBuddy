@@ -14,7 +14,7 @@ const Home = () => {
   const [foodItem , setFoodItem] = useState([]);
 
   const loadData = async () => {
-    let response = await fetch("https://bite-buddy-api.vercel.app/api/foodData",{
+    let response = await fetch("https://bite-buddy-8dxop7nlh-simran-jains-projects.vercel.app/api/foodData",{
       method:"POST",
       headers:{
         'Content-Type' : 'application/json',
